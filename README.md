@@ -106,8 +106,9 @@ You can use these values to test your implementation. You can of course [look up
 <summary>I want to try it myself, but I need a hint.</summary>
 
 Remap algorithm:<br>
-1. Scale the value by the distance between known points on each scale.
-2. Offset it by the distance between the 0-points of the scales.
+1. Normalize the value within the range of the current scale.
+2. Place it on the target scale by multiplying it with the target scale's range.
+3. Offset it by the lower of the 2 known values of the target scale.
 </details>
 
 |                          | Kelvin      | Celsius | Fahrenheit        |
