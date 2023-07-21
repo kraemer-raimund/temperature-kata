@@ -2,6 +2,8 @@
 
 A coding kata that focuses on **encapsulation** and **simple design**.
 
+
+###### *An [example solution](https://github.com/kraemer-raimund/temperature-kata-solution-example) is available.*
 ___
 
 ## Thought Process: Designing a Type
